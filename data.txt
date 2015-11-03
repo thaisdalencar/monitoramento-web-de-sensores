@@ -1,0 +1,1 @@
+[{"valores": [{"valor": "temperatura 77 luz 55"}]}]

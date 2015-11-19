@@ -1,0 +1,66 @@
+#logos{
+	margin-top: 20px;
+}
+#titulo{
+	margin-top: 30px;
+	text-align: center;
+	background-color: #bc6d0a;
+	color: #fff;
+	border-top: 2px solid #bc6d0a; 
+	border-bottom: 2px solid #bc6d0a; 
+	font-family: "Lucida Console", Monaco, monospace;
+	font-size: 30px;
+}
+#tituloTime{
+	text-align: center;
+	color: #bc6d0a;
+	padding: 5px;
+	border-bottom: 2px solid #bc6d0a; 
+}
+#box{
+	margin-top: 30px;
+
+}
+.imgSize{
+	width: 200px;
+	margin-bottom: 20px;
+}
+.imgSizeFuncap{
+	height: 85px;
+	margin-bottom: 20px;
+}
+.imgSizeGdeste{
+	height: 80px;
+	margin-bottom: 20px;
+}
+.imgSensor{
+	width: 100px;
+}
+.boxSense{
+	/*border-right: 2px solid #bc6d0a;*/
+	border: 2px solid #bc6d0a; 
+	border-radius: 10%;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+#space{
+	border-top: 2px solid #bc6d0a;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+.tituloSensor{
+	text-align: center;
+	color: #333333;
+	font-family: "Lucida Console", Monaco, monospace;
+	font-size: 25px;
+}
+#linha{
+	/*border-bottom: 2px solid #bc6d0a; */
+}
+.parametros{
+	text-align: center;
+}
+.parametrosTime{
+	text-align: center;
+	color: #bc6d0a;;
+}

@@ -34,8 +34,53 @@ class Model extends conexao{
 		     var_dump("deu erro na lida ao banco!");
 		}
 
+
+		//busca a hall
+		$sql3 = "SELECT sensor,valor FROM hall ORDER BY id DESC LIMIT 1";
+		$query3 = mysql_query($sql3);
+
+		if(mysql_num_rows($query3)>0){
+          while($row = mysql_fetch_array($query3)){
+              $hall[] = $row["sensor"];
+              $hall[] = $row["valor"];
+		     }
+		} else {
+		     var_dump("deu erro na lida ao banco!");
+		}
+
+		//busca a movimento
+		$sql4 = "SELECT sensor,valor FROM movimento ORDER BY id DESC LIMIT 1";
+		$query4 = mysql_query($sql4);
+
+		if(mysql_num_rows($query4)>0){
+          while($row = mysql_fetch_array($query4)){
+              $movimento[] = $row["sensor"];
+              $movimento[] = $row["valor"];
+		     }
+		} else {
+		     var_dump("deu erro na lida ao banco!");
+		}
+
+
+		//busca a fumaca
+		$sql5 = "SELECT sensor,valor FROM fumaca ORDER BY id DESC LIMIT 1";
+		$query5 = mysql_query($sql5);
+
+		if(mysql_num_rows($query5)>0){
+          while($row = mysql_fetch_array($query5)){
+              $fumaca[] = $row["sensor"];
+              $fumaca[] = $row["valor"];
+		     }
+		} else {
+		     var_dump("deu erro na lida ao banco!");
+		}
+
+		//coloca os valores no array valores
 		$valores[] = $temperatura;
 		$valores[] = $luminosidade;
+		$valores[] = $hall;
+		$valores[] = $movimento;
+		$valores[] = $fumaca;
 
 		return $valores;
 	}

@@ -4,13 +4,14 @@ import timeit
 from xml.dom import minidom
 import sys
 
-path = sys.argv[1]
-baud = sys.argv[2]
-vetor = sys.argv[3]
+# path = sys.argv[1]
+# baud = sys.argv[2]
+# vetor = sys.argv[3]
 
-# path = '/dev/ttyACM0'
-# baud = 9600
-# vetor = '2'
+
+path = '/dev/ttyACM0'
+baud = 9600
+vetor = '2'
 
 mySerial = serial.Serial(path, baud)
 cont = 1

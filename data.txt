@@ -1,1 +1,1 @@
-[{"valores": [{"valor": "temperatura 77 luz 55"}]}]
+[{"valores": [{"valor": "temperatura 77 luz 55 hall 40 movimento 11 fumaca 33"}]}, {"valores": [{"valor": "temperatura 77 luz 55 hall 40 movimento 11 fumaca 33"}]}]
